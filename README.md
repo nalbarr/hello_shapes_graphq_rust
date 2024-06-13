@@ -1,2 +1,2 @@
-# hello_shapes_graphq_rust
-hello_shapes_graphq_rust
+# hello_shapes_graphql_rust
+hello_shapes_graphql_rust
