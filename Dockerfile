@@ -14,7 +14,7 @@ WORKDIR /app
 
 RUN apt update -y && apt install openssl -y && apt install ca-certificates
 
-COPY --from=builder /app/target/release/graphql_rust_axum .
+COPY --from=builder /app/target/release/hello_shapes_graphql_rust .
 COPY ./schemas ./schemas
 
 RUN chgrp -R 0 /app && \
@@ -23,4 +23,4 @@ USER 1001
 
 EXPOSE 8080
 
-CMD ["./graphql_rust_axum"]
+CMD ["./hello_shapes_graphql_rust"]
