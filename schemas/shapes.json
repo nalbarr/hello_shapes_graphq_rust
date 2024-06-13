@@ -1,0 +1,14 @@
+{
+	"data": {
+		"getShapes": [
+			{
+				"id": "1",
+				"name": "Square 1"
+			},
+			{
+				"id": "2",
+				"name": "Triangle 1"
+			}
+		]
+	}
+}
